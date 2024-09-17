@@ -1,25 +1,28 @@
-.navbar{
-    /* background-color: black; */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0px;
-    z-index: 10;
-    width: 100%; 
-    position: fixed;
+.navbar {
+  /* background-color: black; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  z-index: 10;
+  width: 100%;
+  transition: background-color 0.3s ease;
+  position: fixed;
 }
-.logo{
-    width: 180px;
+.bg-blue {
+  background-color: #212ea0; 
 }
-.navbar ul{
-    display: flex;
-    align-items: center;
-  
+.logo {
+  width: 180px;
 }
-.navbar ul li{
-    color: white;
-    list-style: none;
-    margin-right: 40px;
-    font-size: 16px;
-    font-weight: 400;
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+.navbar ul li {
+  color: white;
+  list-style: none;
+  margin-right: 40px;
+  font-size: 16px;
+  font-weight: 400;
 }
